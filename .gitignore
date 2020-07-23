@@ -1,4 +1,5 @@
 .vscode
+.history
 # build output
 dist
 .next
@@ -8,29 +9,11 @@ node_modules
 package-lock.json
 yarn.lock
 !/yarn.lock
-test/node_modules
 
-# logs & pids
-*.log
-pids
-
-# coverage
-.nyc_output
-coverage
-
-# test output
-test/**/out*
-test/**/next-env.d.ts
 .DS_Store
 
 # Editors
 **/.idea
-
-# examples
-examples/**/out
-examples/**/.env*.local
-
-pr-stats.md
 
 # Vercel
 .vercel
